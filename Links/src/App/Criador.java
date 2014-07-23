@@ -35,7 +35,7 @@ public class Criador {
 	
 	
 	private static void leDados(String novo){
-		if (novo.equals("sim")) {		
+		if (novo.equals("s")) {		
 			Turmas.descTuma[index++] = View.digita("Nome da turma");
 			leDados(View.digita("Nova"));	
 		}else{
