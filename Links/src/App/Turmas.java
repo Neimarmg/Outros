@@ -1,7 +1,7 @@
 package App;
 
 public class Turmas {
-	static int tamanho = 20;
+	static int tamanho = 10;
 	public static String descTuma[] = new String[tamanho];
 	
 	public static int getTamanho() {

@@ -21,10 +21,7 @@ public class Criador {
 			for (int j = 0; j < Partes.qtPartes; j++) {
 				Partes.setParte(j);
 				if ((Turmas.descTuma[i] != null)) {
-					Links.descLink[index++] = Turmas.descTuma[i] 
-											+"_" +dataSerial()+"_" 
-											+Turnos.getTurno()+"_"
-											+Partes.getParte();
+					Links.descLink[index++] = Turmas.descTuma[i] +"_" +dataSerial()+"_"	+Turnos.getTurno()+"_" +Partes.getParte();
 				}else{
 					Links.descLink[index++] = "";
 				}
